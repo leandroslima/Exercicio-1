@@ -15,7 +15,7 @@ class Integer
       1 => "I",
   }
 
-  def roman
+  def romanize
     n = self
     romanized = ''
     LETTERS.each do |value, letter|
